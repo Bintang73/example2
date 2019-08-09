@@ -37,8 +37,8 @@ def menu():
                    print('')
                    os.system('figlet ' + x + ' | lolcat')
                    print('\033[1;92m ────────────────────────────────|by Stars ')
-                   print("")
-                   break
+                   print('figlet stars | lolcat')
+
                 else:
                       print("")
                       print("")
