@@ -11,7 +11,7 @@ def menu():
       while True:
            print("")
            os.system("clear")
-           os.system("figlet -f slant '   wellcome' | lolcat")
+           os.system("figlet -f slant '   Wifi-Id' | lolcat")
            print('\033[1;96m ============================================================')
            print(' ||  +--------------------------------------------------+  ||')
            print(' ||  | Creator   : Bintang Nur Pradana                             |  ||')
