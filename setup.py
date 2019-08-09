@@ -14,7 +14,7 @@ def menu():
            os.system("figlet -f slant '   Wifi-Id' | lolcat")
            print('\033[1;96m ============================================================')
            print(' ||  +--------------------------------------------------+  ||')
-           print(' ||  | Creator   : Bintang Nur Pradana                             |  ||')
+           print(' ||  | Creator   : Bintang Nur Pradana                  |  ||')
            print(' ||  +--------------------------------------------------+  ||')
            print(' ||  | Youtube   : https://youtube.com/xnxx             |  ||')
            print(' ||  | github    : https://github.com/bintangnurpradana |  ||')
@@ -35,9 +35,9 @@ def menu():
                    time.sleep(1)
                    os.system('clear')
                    print('')
-                   os.system('figlet ' + x + ' | lolcat')
+                   os.system('figlet Wifi-Id | lolcat')
                    print('\033[1;92m ────────────────────────────────|by Stars ')
-                   print('figlet stars | lolcat')
+                   print('uji coba cok')
                    break
                 else:
                       print("")
