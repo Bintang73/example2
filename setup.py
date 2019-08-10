@@ -38,6 +38,7 @@ def menu():
                    os.system('figlet Wifi-Id | lolcat')
                    print('\033[1;92m ────────────────────────────────|by Stars ')
                    print('uji coba cok')
+                   break
                    os.system('python wd.py')
                 else:
                       print("")
