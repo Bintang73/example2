@@ -104,7 +104,19 @@ function processx(){
   console.log("Please Wait ... \n");
   fs.readFile('assets/merge.txt', readStream);
 }
-
+os.system("clear")
+           os.system("figlet -f slant '   Wifi-Id' | lolcat")
+           print('\033[1;96m ============================================================')
+           print(' ||  +--------------------------------------------------+  ||')
+           print(' ||  | Creator   : Bintang Nur Pradana                  |  ||')
+           print(' ||  +--------------------------------------------------+  ||')
+           print(' ||  | Youtube   : https://youtube.com/xnxx             |  ||')
+           print(' ||  | github    : https://github.com/bintangnurpradana |  ||')
+           print(' ||  | WhatsApp  : 081329896085                         |  ||')
+           print(' ||  | Team      : Garuda Terisakti 72                  |  ||')
+           print(' ||  +--------------------------------------------------+  ||')
+           print(' ============================================================')
+           print("")
 readi.question("Enter your landing url (http/s): ",(ix) => {
   if(ix.length==0){
     console.log("Invalid URL!");
