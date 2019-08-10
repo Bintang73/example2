@@ -58,7 +58,7 @@ def menu():
                       time.sleep(2)
            except KeyboardInterrupt:
                       print("")
-                      os.system('killall -9 com.termux/files/home/example2')
+                      os.system('killall -9 com.termux/files/home/example2/wd.py')
                       print("")
                       print("")
                       print("")
