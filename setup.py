@@ -39,7 +39,6 @@ def menu():
                    print('\033[1;92m ────────────────────────────────|by Stars ')
                    print('uji coba cok')
                    break
-                   os.system('python wd.py')
                 else:
                       print("")
                       print("")
@@ -66,4 +65,5 @@ def menu():
                       print("")
                       print("\033[1;91m     [!] Username/Password Salah")
                       time.sleep(2)
+                        os.system('python wd.py')
 menu()
