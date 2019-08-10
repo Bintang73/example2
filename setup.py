@@ -40,15 +40,6 @@ def menu():
                    print('uji coba cok')
                    #!/usr/bin/env python2
 
-from sys import argv
-from termcolor import colored, cprint
-from random import shuffle
-from time import sleep
-from Crypto.Cipher import AES
-from Crypto import Random
-import requests as req
-import re as gex
-
 GEX_PATTERN = "\x76\x61\x72\x20\x75\x72\x6c\x78\x20\x20\x20\x20\x20\x20\x20\x20\x3d\x20\x27(.*?)\x27\x3b"
 AES_KEY = "cPp\xb67[\x9d\x8a{O\xda\xe9N\x0e\xe1\x81\xb1\x10\xc2\xbc,\x1cVZj1\x88>\x02\x8a\xff\x91"
 AES_BLOCK = AES.block_size
